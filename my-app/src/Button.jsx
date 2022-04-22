@@ -5,7 +5,7 @@ function Button({ text }) {
   return <button className={styles.title}>{text}</button>;
 }
 
-//propTypes 을 좀더 편리하게 사용하기 위한 방법
+//propTypes 타입 검사 => 좀더 편리하게 prop을 사용하기 위한 방법
 Button.prototype = {
   text: propTypes.string.isRequired,
 };
