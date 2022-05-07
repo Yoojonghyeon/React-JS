@@ -21,6 +21,7 @@ function Movie({ id, coverImg, title, year, summary, genres }) {
     </div>
   );
 }
+console.dir(Movie);
 Movie.propTypes = {
   id: PropTypes.number.isRequired,
   coverImg: PropTypes.string.isRequired,
