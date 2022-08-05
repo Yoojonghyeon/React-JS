@@ -12,7 +12,7 @@ function Movie({ id, coverImg, title, year, summary, genres }) {
         </h2>
         <h3 className={styles.movie__year}>{year}</h3>
         <p>
-          {summary.length > 235 ? `${summary.slice(0, 235)}...` : summary}
+          {summary.length > 230 ? `${summary.slice(0, 230)}...` : summary}
         </p>{" "}
         {/* 글자 수 제한 */}
         <ul className={styles.movie__genres}>
